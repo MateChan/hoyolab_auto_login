@@ -1,0 +1,27 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "jsr:@teever/ez-hook": "jsr:@teever/ez-hook@0.2.5",
+      "npm:node-hoyolab": "npm:node-hoyolab@2.0.2"
+    },
+    "jsr": {
+      "@teever/ez-hook@0.2.5": {
+        "integrity": "3fcd2e0218f85626739a604351afb9ec8d88a610f7db131b066beb3e9eeb45b3"
+      }
+    },
+    "npm": {
+      "node-hoyolab@2.0.2": {
+        "integrity": "sha512-jdyNnyMoV15Rke43kg0uM6iKXA4seGtRfrF0UoQKmN15D111XTiUNzHiV1LkBCjyyJRKhtWIu5kl6VBrUz4s9Q==",
+        "dependencies": {}
+      }
+    }
+  },
+  "remote": {},
+  "workspace": {
+    "dependencies": [
+      "jsr:@teever/ez-hook",
+      "npm:node-hoyolab"
+    ]
+  }
+}

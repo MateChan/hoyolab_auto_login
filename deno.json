@@ -1,0 +1,16 @@
+{
+  "imports": {
+    "node-hoyolab": "npm:node-hoyolab",
+    "@teever/ez-hook": "jsr:@teever/ez-hook"
+  },
+  "fmt": {
+    "semiColons": false
+  },
+  "unstable": [
+    "cron"
+  ],
+  "tasks": {
+    "start": "deno run --allow-sys --allow-net --allow-env --env main.ts",
+    "test": "deno run --allow-sys --allow-net --allow-env --env test.ts"
+  }
+}
